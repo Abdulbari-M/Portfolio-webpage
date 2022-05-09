@@ -1,0 +1,105 @@
+html {
+    max-width: auto;
+    max-height: auto;
+    margin: auto;
+    font-size: 18px;
+    align-items: center;
+    block-size: fit-content;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+body {
+    background-color: #000000;
+    color: rgb(64, 200, 224);
+    }
+
+h1   {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    overflow: auto;
+    height: auto; 
+    min-width: 100%; 
+    text-shadow: 5rem;
+}
+
+nav {
+    background-color: lightgrey;
+    height: auto; 
+    min-width: 100%;  
+    text-align:center; 
+    position: static;
+    border-radius: 3rem;
+    border-top-style: groove;
+    padding-bottom: 2rem;
+}
+nav {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-delay: 100ms;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-top: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+    }
+  }
+
+nav a {
+    display: inline-flex;
+    margin-top: 40px;
+    font-size: 1.25rem;
+    margin-inline: 150px;
+    }
+
+    nav a:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    h1 {
+        animation-duration: 3s;
+        animation-name: slidein;
+        animation-delay: 200ms;
+        animation-timing-function: ease-out;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-top: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-top: 0%;
+          width: 100%;
+        }
+      }
+
+      footer {
+         margin-top: 38rem;
+         align-items: center;
+         word-spacing: 3px;
+         color: lightgrey;
+         font-size: 1.1rem;
+      }
+
+      footer ul a {
+          color:rgb(64, 200, 224)
+      }
+
+      footer ul {
+        word-spacing: 10rem;
+      }
